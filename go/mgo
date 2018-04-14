@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "SET ENV FOR GO1.9.2 IN /USR/LOCAL/gohome/go1.9.2"
+export GOROOT=/usr/local/gohome/go1.9.2
+export GOPATH=/root/Project/gowork
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+go version 
+echo  $PATH
